@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendar</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="calendar-container">
+        <div class="calendar-header">
+            <button id="prev-month">←</button>
+            <h2 id="month-year"></h2>
+            <button id="next-month">→</button>
+        </div>
+        <table id="calendar-table">
+            <thead>
+                <tr>
+                    <th>Dushanba</th>
+                    <th>Seshanba</th>
+                    <th>Chorshanba</th>
+                    <th>Payshanba</th>
+                    <th>Juma</th>
+                    <th>Shanba</th>
+                    <th>Yakshanba</th>
+                </tr>
+            </thead>
+            <tbody id="calendar-body">
+                <!-- Calendar dates will be generated dynamically -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
